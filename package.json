@@ -1,0 +1,17 @@
+{
+  "name": "animalese-api",
+  "version": "1.0.0",
+  "description": "Animalese-style audio generator API (Chinese / English / Japanese). Syllable speech bank and text analysis ported from Pal-AI-Lab/Coopanion (AGPL-3.0)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
